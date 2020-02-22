@@ -8,14 +8,14 @@
 <body>
 <header class="header">
     <div class="wrapper">
-        <h1><a href="#" class="logo">Singolo</a></h1>
+        <h1><a href="#" class="logo">Singolo<span class="header__color">*</span></a></h1>
         <nav class="header__navigation">
             <ul class="navigation">
-                <li>Home</li>
-                <li>Services</li>
-                <li>Portfolio</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li class="activ_li item">Home</li>
+                <li class="item">Services</li>
+                <li class="item">Portfolio</li>
+                <li class="item">About</li>
+                <li class="item">Contact</li>
             </ul>
         </nav>
     </div>
@@ -24,63 +24,68 @@
 <section class="slider">
     <div class="wrapper">
         <div class="slider__left">
-            <img src="" alt="">
+            <img src="assets/image/chev.png" alt="">
         </div>
-        <div class="slider__content">
-            <div class="content-image">
-                <img src="" alt="">
-            </div>
-            <div class="content-image">
-                <img src="" alt="">
-            </div>
+        <div class="content-image-left">
+            <img src="assets/image/iPhone_Vertical.png" alt="">
+        </div>
+        <div class="content-image-right">
+            <img src="assets/image/iPhone_Horizontal.png" alt="">
         </div>
         <div class="slider__right">
-            <img src="" alt="">
+            <img src="assets/image/chev.png" alt="">
         </div>
     </div>
 </section>
 
 <section class="our-service">
     <div class="wrapper">
-        <h2>Our Services</h2>
-        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
+        <h2 class="our-service__heading">Our Services</h2>
+        <p class="our-service__paragraph">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
         <div class="layout">
-            <div class="layout-3-column">
-                <div class="layout__left">
-                    <img src="" alt="">
-                    <h3>Custom Design </h3>
-                    <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+            <div class="layout__pen layout__w">
+                <img src="assets/image/pen.png" alt="" width="60px" height="60px">
+                    <div class="layout__text">
+                        <h3 class="layout__header-text">Custom Design </h3>
+                        <p class="layout__paragraph-text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                    </div>
                 </div>
-                <div class="layout__center">
-                    <img src="" alt="">
-                    <h3>Inovative Ideas </h3>
-                    <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
-                </div>
-                <div class="layout__right">
-                    <img src="" alt="">
-                    <h3>Love Is The Answer </h3>
-                    <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum. </p>
+            <div class="layout__blob layout__w">
+                <img src="assets/image/blob.png" alt="" width="60px" height="60px">
+                <div class="layout__text">
+                    <h3 class="layout__header-text">Inovative Ideas </h3>
+                    <p class="layout__paragraph-text">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
                 </div>
             </div>
-            <div class="layout-3-column">
-                <div class="layout__left">
-                    <img src="" alt="">
-                    <h3>Responsive Layout </h3>
-                    <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+            <div class="layout__heart layout__w">
+                <img src="assets/image/heart.png" alt="" width="60px" height="60px">
+                <div class="layout__text">
+                    <h3 class="layout__header-text">Love Is The Answer </h3>
+                    <p class="layout__paragraph-text">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum. </p>
                 </div>
-                <div class="layout__center">
-                    <img src="" alt="">
-                    <h3>24 / 7 Support </h3>
-                    <p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem . </p>
+            </div>
+            <div class="layout__phone layout__w">
+                <img src="assets/image/phone.png" alt="" width="60px" height="60px">
+                <div class="layout__text">
+                <h3 class="layout__header-text">Responsive Layout </h3>
+                <p class="layout__paragraph-text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
                 </div>
-                <div class="layout__right">
-                    <img src="" alt="">
-                    <h3>Feel Like A Star </h3>
-                    <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. </p>
+            </div>
+            <div class="layout__bubble layout__w">
+                <img src="assets/image/bubble.png" alt="" width="60px" height="60px">
+                <div class="layout__text">
+                <h3 class="layout__header-text">24 / 7 Support </h3>
+                <p class="layout__paragraph-text">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem . </p>
+                </div>
+            </div>
+            <div class="layout__star layout__w">
+                <img src="assets/image/star.png" alt="" width="60px" height="60px">
+                <div class="layout__text">
+                <h3 class="layout__header-text">Feel Like A Star </h3>
+                <p class="layout__paragraph-text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. </p>
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 </body>
