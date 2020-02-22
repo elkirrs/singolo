@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5fb473f0-de76-402d-b959-5fa050076b65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/image/left.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/image/chek.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/image/right.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/singolo1.css" beforeDir="false" afterPath="$PROJECT_DIR$/singolo1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/singolo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/singolo1.html" afterDir="false" />
     </list>
@@ -55,6 +53,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -67,6 +66,9 @@
       <recent name="$PROJECT_DIR$/assets/sass" />
       <recent name="$PROJECT_DIR$/assets/font/Lato" />
     </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,13 +92,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1582049075487" />
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582382804610">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582387613782">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1582382804610" />
-    <state x="376" y="85" width="687" height="729" key="find.popup" timestamp="1582055511040">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1582387613782" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1582386143593">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="376" y="85" width="687" height="729" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1582055511040" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582386143593" />
+    <state x="376" y="85" width="841" height="729" key="find.popup" timestamp="1582386845012">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="376" y="85" width="841" height="729" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1582386845012" />
   </component>
 </project>
