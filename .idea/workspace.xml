@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5fb473f0-de76-402d-b959-5fa050076b65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singolo1.css" beforeDir="false" afterPath="$PROJECT_DIR$/singolo1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singolo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/singolo1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singolo2.css" beforeDir="false" afterPath="$PROJECT_DIR$/singolo2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singolo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/singolo2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -48,23 +48,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/sass" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/sass" />
+      <recent name="$PROJECT_DIR$/assets/font/Lato" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/sass/base" />
       <recent name="$PROJECT_DIR$/assets/css" />
       <recent name="$PROJECT_DIR$/assets/font" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/sass" />
-      <recent name="$PROJECT_DIR$/assets/font/Lato" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -81,6 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582049063427</updated>
       <workItem from="1582049067307" duration="34967000" />
+      <workItem from="1582962222475" duration="15846000" />
     </task>
     <servers />
   </component>
