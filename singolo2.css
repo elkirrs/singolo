@@ -32,6 +32,9 @@ html {
     border-bottom: solid 6px rgb(51,55,69);
 }
 
+.portfolio__tags {
+    padding-top: 3px;
+}
 .portfolio__head-text {
     font-family: Lato-Black, 'sans-serif';
     font-size: 2.9rem;
@@ -52,9 +55,13 @@ li{
     list-style: none;
     color: rgb(103,109,135);
     font-size: 1.3rem;
-
 }
 
+a {
+    color: rgb(103,109,135);
+    cursor: pointer;
+    text-decoration: none;
+}
 .tags {
     padding: 54px 41px;
 }
@@ -77,7 +84,7 @@ li{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin: -35px 20px;
+    margin: -32px 20px;
 }
 
 .img {
@@ -157,24 +164,32 @@ li{
 }
 
 .about-us {
-    background-color: white;
-    margin: 20px;
+    background-color: rgb(245,245,245);
+    height: 728px;
+    border-bottom: solid 6px rgb(251,251,251);
 }
 
+.about-as__content {
+    margin: -19px;
+    width: 300px;
+    height: 300px;
+}
 .about-us__header-text {
     font-family: Lato-Black, 'sans-serif';
     font-size: 3rem;
     color: rgb(103,109,135);
-    margin: 59px 19px;
+    padding-top: 59px;
+    margin: 0 39px;
 }
 
 .about-as__text {
     font-family: Lato-Light, sans-serif;
     font-size: 1.8rem;
     color: rgb(103,109,135);
-    margin: -41px 20px;
+    padding-top: 18px;
     letter-spacing: 0.015rem;
     line-height: 1.7em;
+    margin: 0 40px;
 }
 
 .content {
@@ -182,13 +197,9 @@ li{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-top: 87px;
+    padding-top: 64px;
 }
 
-.about-as__content {
-    width: 300px;
-    height: 300px;
-}
 
 .content__blc {
     padding-top: 11px;
@@ -205,13 +216,13 @@ li{
     font-family: "Lato-Light", sans-serif;
     font-size: 1.3rem;
     color: rgb(103,109,135);
-    padding-top: 7px;
+    padding-top: 8px;
     line-height: 1.7em;
     letter-spacing: -0.018rem;
 }
 
 .social {
-    margin: 0 -2px;
+    margin: 0 -3px;
 }
 .content__social {
     margin: 23px -40px;
