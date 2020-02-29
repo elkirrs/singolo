@@ -29,7 +29,7 @@ html {
 .portfolio {
     background-color: rgb(45,48,57);
     height: 864px;
-    border-bottom: 6px rgb(51,55,69);
+    border-bottom: solid 6px rgb(51,55,69);
 }
 
 .portfolio__head-text {
@@ -64,7 +64,7 @@ li{
     border-radius: 5px;
     padding: 2px 7px;
     margin: 0 7px 0 0;
-    letter-spacing: -0.056rem
+    letter-spacing: -0.056rem;
 }
 
 .active{
@@ -82,7 +82,6 @@ li{
 
 .img {
     padding: 0 0 17px 20px;
-
 }
 
 .p1 {
@@ -100,7 +99,7 @@ li{
 .p2 {
     background-image: url("assets/image/Project5.png");
     background-position-x: -82px;
-    background-position-y: -44px;
+    background-position-y: -43px;
 }
 
 .p4 {
@@ -157,5 +156,68 @@ li{
     background-position-y: -60px;
 }
 
+.about-us {
+    background-color: white;
+    margin: 20px;
+}
 
+.about-us__header-text {
+    font-family: Lato-Black, 'sans-serif';
+    font-size: 3rem;
+    color: rgb(103,109,135);
+    margin: 59px 19px;
+}
+
+.about-as__text {
+    font-family: Lato-Light, sans-serif;
+    font-size: 1.8rem;
+    color: rgb(103,109,135);
+    margin: -41px 20px;
+    letter-spacing: 0.015rem;
+    line-height: 1.7em;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 87px;
+}
+
+.about-as__content {
+    width: 300px;
+    height: 300px;
+}
+
+.content__blc {
+    padding-top: 11px;
+}
+
+.blc__head-text {
+    font-family: "Lato-Black", sans-serif;
+    font-size: 1.79rem;
+    color: rgb(103,109,135);
+    letter-spacing: -0.015rem;
+}
+
+.blc__text {
+    font-family: "Lato-Light", sans-serif;
+    font-size: 1.3rem;
+    color: rgb(103,109,135);
+    padding-top: 7px;
+    line-height: 1.7em;
+    letter-spacing: -0.018rem;
+}
+
+.social {
+    margin: 0 -2px;
+}
+.content__social {
+    margin: 23px -40px;
+}
+
+.social__item {
+    padding: 0 2.7px;
+}
 
