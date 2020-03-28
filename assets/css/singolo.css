@@ -1,0 +1,149 @@
+* {
+  margin: 0 0;
+}
+
+body {
+  max-width: 1020px;
+}
+
+html {
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: "Lato-Semibold";
+  src: url("./assets/font/Lato/Lato-Semibold.ttf");
+}
+@font-face {
+  font-family: "Lato-Black";
+  src: url("./assets/font/Lato/Lato-Black.ttf");
+}
+@font-face {
+  font-family: "Lato-Light";
+  src: url("./assets/font/Lato/Lato-Light.ttf");
+}
+.header {
+  max-width: 1020px;
+  font-family: "Lato-Semibold", sans-serif;
+  background-color: #2D303A;
+  height: 89px;
+  border-bottom: solid 6px #323746;
+}
+
+.logo {
+  font-size: 2.38rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 33px 38px;
+}
+.logo .header__color {
+  color: #E94348;
+}
+
+.navigation {
+  display: flex;
+  font-family: "Lato-Semibold", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: -0.035em;
+  color: #FFFFFF;
+  margin: 0 25px;
+  padding-top: 7px;
+}
+
+.navigation__link {
+  list-style: none;
+  padding: 0 15px;
+  cursor: pointer;
+}
+.navigation__link:hover {
+  color: #E94348;
+  transition: all 1s;
+}
+
+.wrapper {
+  max-width: 1020px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider {
+  background-color: #F06C64;
+  border-bottom: solid 6px #EA676B;
+  height: 594px;
+}
+
+.slider__left {
+  position: absolute;
+  top: 376px;
+  left: 40px;
+  cursor: pointer;
+}
+
+.content-image-left {
+  margin-left: 112px;
+  margin-top: 52px;
+}
+
+.content-image-right {
+  margin-right: 112px;
+  margin-top: 52px;
+}
+
+.slider__right {
+  position: absolute;
+  top: 376px;
+  left: 963px;
+  cursor: pointer;
+}
+
+.our-service {
+  background-color: #F2F2F2;
+  border-bottom: solid 6px #FFFFFF;
+}
+
+.our-service__heading {
+  font-family: "Lato-Black", sans-serif;
+  font-style: normal;
+  font-size: 3rem;
+  padding: 61px 0 0 40px;
+  color: #666D89;
+  letter-spacing: -0.9px;
+}
+
+.our-service__paragraph {
+  font-family: "Lato-Light", sans-serif;
+  color: #767e9e;
+  font-size: 1.9rem;
+  line-height: 30px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  padding-top: 18px;
+  padding-left: 40px;
+  max-width: 940px;
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+
+/*# sourceMappingURL=singolo.css.map */
